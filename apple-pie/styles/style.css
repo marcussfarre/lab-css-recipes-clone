@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header**************************************/
+.header {
+    background-image: url('../images/apple-pie.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding-top: 50px;
+    position: relative;
+    height: 750px;
+}
+
+.header h1 {
+    line-height: 9em;
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: Roboto Condensed;
+}
+
+/*Ingredients**********************************/
+.ingredients, .directions {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.ingredients img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 57px;
+}
+
+.ingredientsList {
+    margin-top: 50px;
+}
+
+.ingredientsList ul {
+    list-style-type: circle;
+    line-height: 20px;
+}
+
+/*Directions**********************************/
+
+.directions img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 57px;
+}
+
+.directions {
+    margin-top: 50px;
+}
+
+.directions ul {
+    list-style-type: decimal;
+    line-height: 20px;
+}
